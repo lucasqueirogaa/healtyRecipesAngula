@@ -10,6 +10,6 @@ export class SearchService {
   search(query: string) {
     const apiUrl = `https://api.spoonacular.com/recipes/complexSearch?apiKey=7ae57fbf93a140998c4be9238a8060c8&query=${query}&number=10`;
 
-    return this.http.get<any>(apiUrl);
+    return this.http.get(apiUrl);
   }
 }

@@ -5,6 +5,6 @@
   background-color: #121212;
   color: white;
 }
-.container {
+main {
   flex: 1 0 auto;
 }
